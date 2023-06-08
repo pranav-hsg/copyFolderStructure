@@ -82,9 +82,13 @@ folder_structure = get_folder_structure(basePath,settings)
 
 def create_folders_from_structure (folder_structure,toPath):
     for fs in folder_structure['children']:
+        # extract relative path form 'fromPath'.
         pathToCreate = path.relpath(fs['basePath'],basePath)
+        # Add folder name to path
         pathToCreate  = path.join(pathToCreate,fs['name'])
+        # Remove extra . , which has come due to relPath.
         pathToCreate= path.normpath(pathToCreate)
+        # join that relative folder path to 'toPath'
         folderToCreate = path.join(toPath,pathToCreate)
         try:
             os.mkdir(folderToCreate)
