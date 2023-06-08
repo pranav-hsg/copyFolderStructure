@@ -1,0 +1,127 @@
+{
+  "name": "casa",
+  "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore",
+  "relPath": "",
+  "type": "Folder",
+  "children": [
+    {
+      "name": "application",
+      "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa",
+      "relPath": "application",
+      "type": "Folder",
+      "children": [
+        {
+          "name": "assembler",
+          "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\application",
+          "relPath": "assembler",
+          "type": "Folder",
+          "children": []
+        },
+        {
+          "name": "dto",
+          "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\application",
+          "relPath": "dto",
+          "type": "Folder",
+          "children": []
+        },
+        {
+          "name": "facade",
+          "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\application",
+          "relPath": "facade",
+          "type": "Folder",
+          "children": [
+            {
+              "name": "impl",
+              "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\application\\facade",
+              "relPath": "impl",
+              "type": "Folder",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "specifications",
+          "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\application",
+          "relPath": "specifications",
+          "type": "Folder",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "domain",
+      "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa",
+      "relPath": "domain",
+      "type": "Folder",
+      "children": [
+        {
+          "name": "errors",
+          "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\domain",
+          "relPath": "errors",
+          "type": "Folder",
+          "children": []
+        },
+        {
+          "name": "model",
+          "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\domain",
+          "relPath": "model",
+          "type": "Folder",
+          "children": []
+        },
+        {
+          "name": "operation",
+          "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\domain",
+          "relPath": "operation",
+          "type": "Folder",
+          "children": [
+            {
+              "name": "support",
+              "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\domain\\operation",
+              "relPath": "support",
+              "type": "Folder",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "service",
+          "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\domain",
+          "relPath": "service",
+          "type": "Folder",
+          "children": [
+            {
+              "name": "impl",
+              "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\domain\\service",
+              "relPath": "impl",
+              "type": "Folder",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "infrastructure",
+      "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa",
+      "relPath": "infrastructure",
+      "type": "Folder",
+      "children": [
+        {
+          "name": "persistence",
+          "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\infrastructure",
+          "relPath": "persistence",
+          "type": "Folder",
+          "children": [
+            {
+              "name": "jpa",
+              "basePath": "C:\\encore-workspace\\encore-server\\casa\\src\\main\\java\\com\\sensei\\encore\\casa\\infrastructure\\persistence",
+              "relPath": "jpa",
+              "type": "Folder",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
