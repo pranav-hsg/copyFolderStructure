@@ -22,7 +22,7 @@ data = {
  "commit_hash" : strLogArr[0].split(" ")[1],
  "date" : strLogArr[2].split("  ")[1].strip(),
  "comment" : strLogArr[3],
- "changes" : strLogArr[6]
+ "changes" : strLogArr[-1]
 }
 
 
