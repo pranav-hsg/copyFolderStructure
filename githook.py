@@ -9,7 +9,7 @@ import xlwt
 import os
 
 
-filePath = "S:\projects\docs\test.xlsx"
+filePath = "S:\projects\docs\projectk.xlsx"
 
 # Get the git log --stat entry of the new commit
 log = check_output(['git', 'log', '-1', '--stat', 'HEAD'])
@@ -31,7 +31,7 @@ if ( not os.path.exists(filePath)):
     sheet = book.active
     sheet.append(list(data.keys()))
     book.save(filePath)
-
+    
 wb = openpyxl.load_workbook(filePath)  
 sheet = wb.active  
 sheet.append(list(data.values()))
